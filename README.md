@@ -1,17 +1,17 @@
-# ai_chatapp
+AI Chat App
 
-A new Flutter project.
+A Flutter-based AI chat application that allows users to interact with AI models. The app supports OpenAI API integration as well as a free public API for responses. Features include theme switching, persistent login, and a smooth chat interface.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+Chat with AI using OpenAI API (gpt-4o-mini) or a free quotes API.
+Persistent login using SharedPreferences.
+Dark and light theme toggle.
+Clean, user-friendly chat interface with message timestamps.
+Works on Android, iOS, and Web (Flutter supported platforms).
+Tech Stack
+Flutter – Cross-platform UI framework
+Provider – State management
+HTTP – API requests
+Shared Preferences – Local storage
+Lottie – Animations for chat screen
+Intl – Formatting dates and times
