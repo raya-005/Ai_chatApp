@@ -1,0 +1,35 @@
+name: ai_chatapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  http: ^1.1.0
+  shared_preferences: ^2.0.15
+  lottie: ^2.2.0
+  intl: ^0.18.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # If you have assets, list them here:
+  # assets:
+  #   - assets/images/
+
+  # If you have fonts, list them here:
+  # fonts:
+  #   - family: MyFont
+  #     fonts:
+  #       - asset: fonts/MyFont-Regular.ttf
